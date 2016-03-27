@@ -31,7 +31,7 @@ export default class DateTimePicker extends Component {
         this.state = {
             visible: false,
             mode: 'date',
-            date: new Date()
+            date: date
         };
         this.callback = ()=>{};
     }
